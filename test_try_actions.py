@@ -2,11 +2,11 @@
 import pytest
 from try_actions import sum
 
-def test_sum_adds_numbers():
+def test_sum():
     assert sum(3, 5) == 8
 
-def test_sum_adds_strings():
+def test_sum():
     assert sum("hello", "world") == "helloworld"
 
-def test_sum_adds_lists():
+def test_sum():
     assert sum([1, 2], [3, 4]) == [1, 2, 3, 4]
