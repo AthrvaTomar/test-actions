@@ -8,8 +8,6 @@ jobs:
     test_pull_request:
         runs-on: ubuntu-latest
         steps:
-            - uses: action/checkout@v2
             - run: pip install pytest
             - run: pytest
             - run: python try_actions
-            
