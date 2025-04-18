@@ -1,2 +1,4 @@
 def sum(var_one,var_two):
-    return int(var_one) + int(var_two)
+    var_one = int(var_one)
+    var_two = int(var_two)
+    return var_one+var_two
