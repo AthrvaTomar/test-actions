@@ -2,7 +2,7 @@ name: "test-actions"
 
 on:
     pull_request:
-        branches: [ main ]
+        branches: [ extra ]
 
 jobs:    
     test_pull_request:
