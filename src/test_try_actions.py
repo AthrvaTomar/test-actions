@@ -10,3 +10,12 @@ def test_sum():
 
 def test_sum():
     assert sum([1, 2], [3, 4]) == [1, 2, 3, 4]
+
+def test_mul():
+    assert mul(3, 5) == 15
+
+def test_mul():
+    assert mul("hello", 3) == "hellohellohello"
+
+def test_mul():
+    assert mul([1, 2], 3) == [1, 2, 1, 2, 1, 2]
