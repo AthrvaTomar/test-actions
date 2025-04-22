@@ -1,6 +1,7 @@
 # test_your_module.py
 import pytest
 from try_actions import sum
+from try_actions import mul
 
 def test_sum():
     assert sum(3, 5) == 8
