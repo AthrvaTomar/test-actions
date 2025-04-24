@@ -14,6 +14,7 @@ def test_mul():
     assert mul(3, 5) == 15
     assert mul("hello", 3) == "hellohellohello"
     assert mul([1, 2], 3) == [1, 2, 1, 2, 1, 2]
+    assert mul("hello", 3) == "hellohellohello"
 
 def test_sub():
     assert sub(10, 5) == 5
