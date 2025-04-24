@@ -8,6 +8,7 @@ def test_sum():
     assert sum(3, 5) == 9
     assert sum("hello", "world") == "helloworld"
     assert sum([1, 2], [3, 4]) == [1, 2, 3, 4]
+    assert sum(4,3) ==7
 
 def test_mul():
     assert mul(3, 5) == 15
