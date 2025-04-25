@@ -5,7 +5,7 @@ from try_actions import mul
 from try_actions import sub
 
 def test_sum():
-    assert sum(3, 5) == 9
+    assert sum(3, 5) == 8
     assert sum("hello", "world") == "helloworld"
     assert sum([1, 2], [3, 4]) == [1, 2, 3, 4]
     assert sum(4,3) ==7
