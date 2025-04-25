@@ -7,6 +7,7 @@ from try_actions import sub
 def test_sum():
     assert sum(3, 5) == 8
     assert sum(4,3) ==7
+    assert sum(11,1) == 13
 
 def test_mul():
     assert mul(3, 5) == 15
