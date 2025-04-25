@@ -10,7 +10,7 @@ def test_sum():
     assert sum(110,10) == 120
 
 def test_mul():
-    assert mul(3, 5) == 15
+    assert mul(3, 5) == 35
     assert mul(9,11) == 99
     
 def test_sub():
