@@ -14,14 +14,14 @@ jobs:
 
         strategy:
             matrix:
-                python-version: [3.8, 3.9]
+                python-version: [3.9]
 
         env:
             MODE: "dev"
 
         steps:
             
-            - name: Checkout code
+            - name: Checkout code i.e. setup the environment
               uses: actions/checkout@v2
 
             - name: Set up Python  
@@ -34,5 +34,5 @@ jobs:
                     python -m pip install --upgrade pip
                     pip install -r ../requirements.txt
 
-            - name: Run tests
-              run: python -m pytest
+            - run: python -m pytest
+            - run: python ./try_actions.py
